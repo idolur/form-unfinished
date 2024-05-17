@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+
+body {
+  font-family: "Karla";
+  background-color: hsl(148, 38%, 91%);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: hsl(187, 24%, 22%);
+}
+.row {
+  display: flex;
+}
+.first-name {
+  width: 40%;
+ 
+}
+.last-name {
+  width: 45%;
+  justify-content: flex-end;
+  margin-left: 40px;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+.email {
+  width: 90%;
+}
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+.query-type{
+    display:flex;
+   
+}
+.option1{
+    width:40%;
+    
+}
+.option2{
+    width:45%;
+    justify-content: flex-end;
+    margin-left: 40px;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.checkbox-text {
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 12px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.message{
+    width:90%;
+}
+
+
+.error-message {
+  display: none;
+  color: red;
+  font-size: 12px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: hsl(169, 82%, 27%);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(187, 24%, 22%);
+}
+
+.box {
+  background-color: hsl(187, 24%, 22%);
+  color: white;
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.hidden{
+    display: none;
+}
+
+
